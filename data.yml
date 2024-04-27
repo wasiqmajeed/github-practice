@@ -1,0 +1,37 @@
+# This is a comment, ignored by YAML parsers
+
+server:
+  # Server configuration
+  host: localhost
+  port: 8000
+  # This property uses a boolean value (true/false)
+  debug_mode: true
+
+# Define a list of users
+users:
+  - name: John Doe
+    email: john.doe@example.com
+    # Nested dictionary for additional user details
+    details:
+      age: 30
+      city: New York
+  - name: Jane Doe
+    email: jane.doe@example.com
+    details:
+      age: 25
+      city: London
+
+# This section defines variables with different data types
+data:
+  # String value
+  message: Hello, world!
+  # Integer value
+  number: 42
+  # Floating-point value
+  pi: 3.14159
+
+# This is an empty list (can be used to store future data)
+items: []
+name: Wasiq
+age: 26
+city: Warsaw
